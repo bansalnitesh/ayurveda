@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+
+
+{% block body %}
+<header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 380">
+        <defs>
+        </defs>
+        <title>top</title>
+        <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+                <polygon id="skin" class="cls-1" points="117 0 1920 320.09 1920 0 117 0" />
+                <polygon id="green" class="cls-2" points="0 0 0 340 1920 0 0 0" />
+                <image width="161" height="95" transform="translate(936 216) scale(1.23)"
+                    xlink:href="data:image/png;base64,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" />
+            </g>
+        </g>
+    </svg>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('history') }}">History</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('practice') }}">Practice</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ url_for('medicine') }}">Medicine</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('blog') }}">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('signin') }}">Sign in</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<div class="margin">
+<h1>Medicine</h1>
+    TUMERIC
+one of the most well-known, widely researched, and commonly used Ayurvedic spices in the world.
+It can be used in many ways and has enormous health benefits. People use it in cooking, drinks and also as a beauty product for bright glowing skin. Due to its
+particular affinity for the blood it is able to circulate its powerful health benefits throughout the body. It is used to support a number of systems and functions in the body.
+
+Promotes digestion
+Supports the brain and nervous system
+Maintains comfortable joint movement
+Supports healthy blood sugar levels already normal range especially when combined with neem and amalaki
+Supports proper functioning of the liver
+Nourishes the heart and circulatory system
+Bolsters the immune system
+</div>
+</main>
+{% endblock %}

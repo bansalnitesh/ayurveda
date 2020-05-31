@@ -1,0 +1,239 @@
+
+body{
+    font-family: 'Jaldi', sans-serif;
+    font-size: 22px;
+}
+.navbar a, main{
+    text-align: center;
+}
+.cls-1 {
+    fill: #a6ce39;
+    filter: drop-shadow(10px 0 5px rgba(0, 0, 0, 0.6));
+}
+
+.cls-2 {
+    fill: #04bb4ac4;
+    filter: drop-shadow(10px 0 5px rgba(0, 0, 0, 0.6));
+}
+.margin{
+    margin: 30px;
+}
+.padding{
+    padding: 30px;
+}
+.more-top{
+    margin-top: 30px;
+}
+nav, .navbar{
+    background-color: #04bb4a;
+    padding: 0px;
+    border-radius: 30px;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.quotes{
+    margin: 40px;
+    background-color: #04bb4a;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Jaldi', sans-serif;
+    font-size: 25px;
+    position: relative;
+}
+.quotes:before, .quotes:after
+{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+.quotes:after
+{
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+main{
+    margin: auto 50px;
+}
+main h2{
+    font-size: 40px;
+}
+#history{
+    margin-top: 50px;
+}
+#history span{
+    color: #04bb4a;
+}
+.active{
+    background-color: #a6ce39;
+}
+.active{
+    border-radius: 30px;
+    min-width: 170px;
+}
+.footer-copyright{
+    border-top: 3px solid white;
+}
+.navbar-nav{
+    justify-content: space-evenly;
+}
+footer{
+    background-color: #04bb4a;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 3px;
+}
+footer a, footer, footer a:hover{
+    color: white;
+}
+h5{
+    font-size: 26px;
+}
+q{
+    margin: 0 auto;
+}
+h1,h2{
+    padding-left: 30px;
+}
+h1{
+    text-align: left;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#b6d85a, #a6ce39, #04bb4a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'cursive', sans-serif;
+}
+.d-flex{
+    text-align: left;
+}
+.d-flex img{
+    min-width: 300px;
+}
+input, .form-group{
+    margin: 20px auto;
+    width: 60%;
+    text-align: left;
+}
+.btn{
+    background-color: #04bb4a;
+    color: white !important;
+}
+.message{
+    background-color: #ff00007c;
+    border: 3px solid #ff0000e5;
+    width: 60%;
+    padding: 14px;
+    margin: auto;
+    color: white;
+}
+span2{
+    color: black;
+}
+.effect7
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+            width:80%;
+            height:200px;
+            background:#FFF;
+            margin:40px auto;
+            text-align: left;
+            color: #04bb4a;
+            padding: 20px;
+}
+
+.effect7:before, .effect7:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 10px rgba(0,0,0,0.8);
+    box-shadow:0 0 10px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+.border-1{
+    border: none;
+    border-right: 2px solid white;
+}
+.padding-1{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+@media only screen and (max-width: 992px) {
+    body{
+        font-size: 17px;
+    }
+    .d-flex img{
+        max-height: 400px;
+    }
+    .quotes{
+        font-size: 17px;
+    }
+    main {
+        margin: auto 10px;
+    }
+}
+@media only screen and (max-width: 680px){
+    .vedas {
+        flex-direction: column;
+    }
+    .ayurvedic_history{
+        flex-direction: column-reverse;
+    }
+    .margin {
+        margin: 20px;
+    }
+    h1, h2 {
+        padding-left: 17px;
+    }
+    .border-1{
+        border: none;
+        border-bottom: 2px solid white;
+    }
+    .padding-1{
+        margin-top: 10px;
+        margin-bottom: 10px !important;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0px;
+    }
+}

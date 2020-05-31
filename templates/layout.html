@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayurveda</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Jaldi|Righteous&display=swap&subset=devanagari" rel="stylesheet"> 
+    <script src="../static/main.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <div id="app">
+        {% block body %}
+            {% endblock %}
+            <footer class="page-footer font-small pt-4">
+                <div class="container-fluid text-md-left">
+                    <div class="row">
+                        <div class="col-md-6 border-1 padding-1 mt-md-0 mt-3">
+                            <h5 class="text-uppercase">Ayurveda</h5>
+                            <p>Ayurveda is to prevent illness by maintaining the balance in the body, mind and consiouness through proper lifestyle, diet as well as herbal remedies. It remains a favoured form of healthcare of large parts of eastern world, especially in India.</p>
+                        </div>
+                        <div class="col-md-3 border-1 padding-1 mb-md-0 mb-3">
+                            <h5 class="text-uppercase">Quick Links</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="{{ url_for('index') }}">Home</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url_for('history') }}">History</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url_for('practice') }}">Practice</a>
+                                </li>
+                            </ul>
+    
+                        </div>
+    
+                        <div class="col-md-3 padding-1 mb-md-0 mb-3">
+    
+                            <h5 class="text-uppercase">Add Blogs</h5>
+    
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="{{ url_for('yourblog') }}">Your Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url_for('addblog') }}">Add A Blog</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url_for('signup') }}">Sign Up</a>
+                                </li>
+                                <li>
+                                    <a href="{{ url_for('signout') }}">Sign Out</a>
+                                </li>
+                            </ul>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="https://nitesh-bansal.com/"> nitesh-bansal.com</a>
+                </div>
+    
+            </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
